@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Comparision</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default" style="background-color: #f1f1f1!important">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="background-color:aqua; margin-left:2cm; "href="#"; ></i>Lattitude</i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <!-- Navigation Bar with glyphicons -->
+                        <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="temperature.html">Max Temperature</a></li>
+                                  <li><a href="windspeed.html">WindSpeed</a></li>
+                                  <li><a href="humidity.html">Humidity</a></li>
+                                  <li><a href="cloudiness.html">Cloudiness</a></li>
+                                </ul>
+                        <li><a href="Comparision.html"></i> Comparision</a></li>
+                        <li><a href="Data.html"></i> Data</a></li>
+                        <li><a href="Index.html"></i> Home</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+        <!-- User Row 1-->
+        <div class="row" style="background-color: #f1f1f1!important; width:900px; display:block; margin-left: auto;
+                                margin-right: auto;">
+            <!-- information -->
+
+            <div class="col-md-11 "; style="padding:1cm; margin:1cm; background-color:white">
+                <h2 style="color:blue" <i>Comparision: Latitude vs X</i></h2>
+                <h5 style="color:black" <i>Click any plot to get a more depth analysis</i></h4>
+                <hr>
+                <a href="cloudiness.html"><img style="float:left"; padding=0.2cm; margin-bottom=0.2cm; width="350"; height="350"
+                src="Latitude_Cloudiness.png" alt="Placeholder" 
+                class="img-thumbnail">
+                <a href="humidity.html"><img style="float:right"; padding=0.2cm; margin-bottom=0.2cm; width="350"; height="350"
+                src="Latitude_Humidity.png" alt="Placeholder" 
+                class="img-thumbnail">
+                <a href="temperature.html"><img style="float:left"; margin-top=0.2cm; padding=0.2cm; width="350"; height="350"
+                src="Latitude_Temperature.png" alt="Placeholder" 
+                class="img-thumbnail">
+                <a href="windspeed.html"><img style="float:right"; margin-top=0.2cm; padding=0.2cm; width="350"; height="350"
+                src="Latitude_WindSpeed.png" alt="Placeholder" 
+                class="img-thumbnail">
+             
+               
+            </div>
+        </div>
+
+        <!-- User Row 2-->
+        <div class="text-center" style="background-color: gray">
+            <center <i class="glyphicon glyphicon-globe"></i>CopyrightRutgetsBootcamp2017</cneter>         
+        </div>
+
+</body>
+
+</html>
